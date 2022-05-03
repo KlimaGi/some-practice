@@ -2,4 +2,81 @@
 
 * {
   font-family: "Zilla Slab", serif;
+  margin: 2;
+  padding: 0;
+  color: hsl(0, 0%, 50%);
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+/* header style */
+header {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.logo {
+  padding: 0 1rem;
+}
+.nav-bar {
+  display: inline-flex;
+  padding: 0 1rem;
+}
+.nav-bar li {
+  list-style: none;
+  padding: 0 1rem;
+}
+.nav-link {
+  text-decoration: none;
+}
+/* main style */
+article {
+  background-color: hsl(0, 0%, 95%);
+  margin: 1rem;
+  padding: 1rem;
+}
+.content-1 {
+  text-align: center;
+}
+
+.content-1 div {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.content-2 {
+  display: flex;
+  padding: 0.2rem 0;
+}
+.content-2 img {
+  margin: 0 1rem;
+}
+.content-3 {
+  display: flex;
+}
+.text-right {
+  padding: 0 2rem;
+}
+.content-3 h3 {
+  padding: 0 0 0.2rem 0;
+}
+.content-3 li {
+  list-style: none;
+}
+.content-3 li::before {
+  content: "- ";
+}
+
+footer {
+  text-align: center;
+  background-color: hsl(0, 0%, 95%);
+  margin: 1rem;
+  padding: 0.2rem;
+}
+
+footer li {
+  list-style: none;
+  display: inline-flex;
+  padding: 0 1rem;
 }
