@@ -1,20 +1,37 @@
-@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&family=Zilla+Slab:wght@300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni&family=Zilla+Slab:wght@300&display=swap");
 * {
   font-family: "Zilla Slab", serif;
 }
-.square {
+.li-style {
+  list-style-type: "- ";
+}
+figure {
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+}
+.img-square {
   height: 20rem;
   width: 20rem;
 }
-.first {
+.link-style {
+  display: inline-block;
+  margin-top: 1.2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-bottom: 1px solid;
+}
+
+.first-word {
   color: #ca1b1b;
   font-size: 2rem;
   font-family: "Libre Bodoni", serif;
+  padding: 0 1rem;
 }
 .p-style {
   font-family: "Libre Bodoni", serif;
   font-size: 1.2rem;
+  font-style: italic;
   font-weight: bold;
   line-height: 2.2rem;
   width: 25rem;
