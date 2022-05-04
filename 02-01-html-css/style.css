@@ -1,7 +1,48 @@
 * {
   margin: 0;
-  color: grey;
+  color: #767e9a;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
 }
-img {
-  margin: 0 auto;
+header {
+  text-align: center;
+  margin: 0 1rem;
+}
+header img {
+  padding: 0.5rem 1rem;
+}
+nav {
+  background-color: gainsboro;
+  padding: 0.6rem;
+}
+
+nav a {
+  text-decoration: none;
+  margin: 0 3rem;
+}
+main {
+  margin: 0 1rem;
+  background-color: #e4e4e4;
+}
+.image {
+  background-image: url(./asstets/schlehdorf-germany.jpg);
+  background-repeat: no-repeat;
+  height: 10rem;
+  background-size: cover;
+  background-position: top;
+}
+
+section {
+  padding: 1rem;
+}
+section.light-block {
+  background-color: #f3f2f2;
+}
+h3 {
+  background: #767e9a;
+  color: #ebeaea;
+  padding: 0.5rem 1rem;
+}
+p {
+  padding: 0.5rem 1rem;
 }
