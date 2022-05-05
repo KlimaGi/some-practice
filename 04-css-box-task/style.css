@@ -1,0 +1,21 @@
+div {
+  margin: 2rem;
+}
+.box-border {
+  height: 10rem;
+  width: 10rem;
+  border-top: 1rem solid #979797;
+  border-left: 1rem solid #b3b3b3;
+  border-right: 1rem solid #b3b3b3;
+  border-bottom: 1rem solid #696969;
+}
+
+.box-tiangle {
+  height: 0;
+  width: 0;
+  background-color: #b3b3b3;
+  border-top: 6rem solid #8a8a8a;
+  border-left: 6rem solid #b3b3b3;
+  border-right: 6rem solid #b3b3b3;
+  border-bottom: 6rem solid #696969;
+}

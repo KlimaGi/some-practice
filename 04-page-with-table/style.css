@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap");
+
+* {
+  font-family: "Zilla Slab", serif;
+  font-size: 1.1rem;
+}
+header {
+  background-color: hsl(252, 8%, 49%);
+  padding: 1rem 0 0;
+  color: hsl(240, 1%, 82%);
+}
+.globe {
+  height: 6rem;
+  display: block;
+  margin: 0 auto;
+}
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: hsl(240, 8%, 61%);
+  padding: 0.5rem;
+}
+a {
+  text-decoration: none;
+  padding: 0 1rem;
+  color: hsl(240, 1%, 82%);
+}
+.center-content {
+  width: 70%;
+  border: 1px solid grey;
+  margin: 0 auto;
+}
+.color-grey {
+  color: hsl(252, 8%, 49%);
+}
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 0.3rem 1.5rem;
+  border-style: none;
+  border-radius: 3px;
+  background-color: hsl(252, 8%, 49%);
+  color: hsl(240, 1%, 82%);
+  margin-bottom: 0.5rem;
+}
