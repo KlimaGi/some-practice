@@ -9,6 +9,9 @@ header {
   padding: 1rem 0 0;
   color: hsl(240, 1%, 82%);
 }
+h1 {
+  font-size: 1.5rem;
+}
 .globe {
   height: 6rem;
   display: block;
@@ -19,7 +22,7 @@ header {
   align-items: center;
   justify-content: end;
   background-color: hsl(240, 8%, 61%);
-  padding: 0.5rem;
+  padding: 0.6rem;
 }
 a {
   text-decoration: none;
@@ -28,7 +31,6 @@ a {
 }
 .center-content {
   width: 70%;
-  border: 1px solid grey;
   margin: 0 auto;
 }
 .color-grey {
@@ -43,4 +45,42 @@ button {
   background-color: hsl(252, 8%, 49%);
   color: hsl(240, 1%, 82%);
   margin-bottom: 0.5rem;
+}
+table,
+td,
+th {
+  border: 1px solid hsl(252, 8%, 49%);
+  text-align: center;
+  padding: 0.5rem;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.text-right {
+  text-align: end;
+}
+.background-grey {
+  background-color: hsl(240, 8%, 61%);
+  width: 100%;
+  color: hsl(240, 1%, 82%);
+  padding: 0.5rem 0 1rem 0;
+}
+.contacts {
+  color: hsl(252, 8%, 49%);
+}
+.go-up {
+  text-align: center;
+  display: block;
+  color: hsl(252, 8%, 49%);
+  margin-bottom: 1rem;
+}
+footer {
+  text-align: center;
+  color: hsl(240, 1%, 82%);
+  background-color: hsl(240, 8%, 61%);
+}
+footer p {
+  padding: 0.6rem;
+  margin: 0;
 }

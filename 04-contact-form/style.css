@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap");
+
+* {
+  font-family: "Zilla Slab", serif;
+  font-size: 1.1rem;
+  color: hsl(0, 0%, 39%);
+}
+.foto-div {
+  background-image: url(./assets/schlehdorf-germany.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.block {
+  height: 35rem;
+  width: 40rem;
+  background-color: hsla(0, 100%, 100%, 0.836);
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+form,
+label,
+input,
+button {
+  text-align: start;
+  margin: 1rem 0;
+  padding: 0 0 0.5rem 0;
+  font-size: 1.5rem;
+}
+label {
+  font-weight: 600;
+}
+input,
+textarea {
+  border-style: none;
+  background-color: rgba(128, 128, 128, 0);
+  border-bottom: 1px solid hsl(0, 0%, 50%);
+  width: 100%;
+}
+textarea {
+  padding: 1rem 0 2rem 0;
+}
+::placeholder {
+  color: hsl(0, 0%, 55%);
+}
+
+button {
+  padding: 0.5rem 3rem;
+  background-color: hsl(0, 1%, 31%);
+  color: hsl(0, 0%, 80%);
+  border-style: none;
+}
