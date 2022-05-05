@@ -1,6 +1,7 @@
-div {
-  margin: 2rem;
+.container {
+  display: flex;
 }
+
 .box-border {
   height: 10rem;
   width: 10rem;
@@ -8,6 +9,7 @@ div {
   border-left: 1rem solid #b3b3b3;
   border-right: 1rem solid #b3b3b3;
   border-bottom: 1rem solid #696969;
+  margin: 2rem;
 }
 
 .box-tiangle {
@@ -18,4 +20,24 @@ div {
   border-left: 6rem solid #b3b3b3;
   border-right: 6rem solid #b3b3b3;
   border-bottom: 6rem solid #696969;
+  margin: 2rem;
+}
+.kite-box {
+  margin: 2rem;
+}
+
+.kite1 {
+  height: 0;
+  width: 3rem;
+  border: 3rem solid #a0a0a0;
+  clip-path: polygon(50% 60%, 100% 100%, 0% 100%);
+}
+.kite1-2 {
+  height: 0;
+  width: 3rem;
+  border: 3rem solid grey;
+  clip-path: polygon(50% 100%, 100% 0%, 0% 0%);
+}
+#grey {
+  border: 3rem solid grey;
 }
