@@ -53,6 +53,10 @@ th {
   text-align: center;
   padding: 0.5rem;
 }
+thead {
+  font-weight: 600;
+  color: hsl(240, 1%, 88%);
+}
 table {
   border-collapse: collapse;
   width: 100%;
