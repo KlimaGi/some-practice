@@ -27,6 +27,7 @@ table {
 }
 .powderblue {
   background-color: hsl(187, 23%, 80%);
+  width: 40%;
 }
 .col-1-style {
   text-align: end;
