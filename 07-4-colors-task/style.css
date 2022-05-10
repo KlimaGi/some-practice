@@ -5,6 +5,65 @@ body {
 * {
   font-family: "Zilla Slab", serif;
   font-size: 1.2rem;
-  color: hsl(0, 0%, 39%);
+  color: hsl(0, 33%, 98%);
   margin: 0;
+}
+body {
+  background-color: hsl(0, 33%, 98%);
+}
+.parent-div {
+  height: 25rem;
+  width: 30rem;
+  margin: 3rem auto;
+  border: 1px solid grey;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  position: absolute;
+}
+.div-1 {
+  width: 25rem;
+  height: 5rem;
+  background-color: hsl(300, 54%, 37%);
+  z-index: 5;
+  top: 2rem;
+  left: 2.7rem;
+}
+.div-2 {
+  width: 23rem;
+  height: 5rem;
+  background-color: hsl(231, 28%, 52%);
+  z-index: 4;
+  top: 6rem;
+  left: 3.7rem;
+}
+.div-3 {
+  width: 21rem;
+  height: 5rem;
+  background-color: hsl(204, 71%, 47%);
+  z-index: 3;
+  top: 10rem;
+  left: 4.7rem;
+}
+.div-4 {
+  width: 19rem;
+  height: 5rem;
+  background-color: hsl(219, 85%, 63%);
+  z-index: 2;
+  top: 14rem;
+  left: 5.7rem;
+}
+.div-5 {
+  width: 17rem;
+  height: 5rem;
+  background-color: hsl(187, 71%, 47%);
+  z-index: 1;
+  top: 18rem;
+  left: 6.7rem;
 }

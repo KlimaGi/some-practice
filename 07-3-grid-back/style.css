@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap");
+body {
+  background-color: hsl(0, 1%, 85%);
+}
+* {
+  font-family: "Zilla Slab", serif;
+  font-size: 1.2rem;
+  color: hsl(0, 2%, 42%);
+  margin: 0;
+  line-height: 1.6rem;
+}
+body {
+  background-image: url(./assets/columns.png);
+  background-repeat: repeat-y;
+  background-size: contain;
+}
+.parent-div {
+  width: 87.4%;
+  height: 200vh;
+  border: 1px solid grey;
+  margin: 0 auto;
+  background-color: hsla(207, 43%, 96%, 0.808);
+}
+h1 {
+  text-align: center;
+}
+
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.block-1-line {
+  border: 1px solid grey;
+  width: 49%;
+  display: flex;
+  background-color: rgba(168, 96, 96, 0.377);
+}
+.p-align {
+  margin-top: 2.5rem;
+  padding-left: 1rem;
+}
+@media (max-width: 1024px) {
+  .block-1-line {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .block-1-line {
+    display: inline;
+    margin-top: 1rem;
+  }
+  .block-1-line img {
+    width: 100%;
+  }
+  .p-align {
+    margin-top: 1rem;
+  }
+}
+
+.section-2 {
+  margin-top: 1.5rem;
+}
+.block-2-line {
+  border: 1px solid grey;
+  width: 32%;
+  background-color: rgba(97, 96, 168, 0.377);
+}
+.block-2-line img,
+.block-3-line img {
+  width: 100%;
+}
+.block-2-line h3,
+.block-3-line h3 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.one-line {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0.5rem;
+}
+
+@media (max-width: 1024px) {
+  .block-2-line {
+    width: 48%;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .block-2-line {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+.section-3 {
+  background-color: rgba(250, 185, 88, 0.596);
+}
+
+.block-3-line {
+  border: 1px solid grey;
+  width: 23.5%;
+  background-color: rgba(250, 185, 88, 0.596);
+}
+.p-trunk {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 1024px) {
+  .block-3-line {
+    width: 48%;
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .block-3-line {
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
