@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap");
+body {
+  background-color: hsl(0, 1%, 85%);
+}
+* {
+  font-family: "Zilla Slab", serif;
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 39%);
+  margin: 0;
+}
