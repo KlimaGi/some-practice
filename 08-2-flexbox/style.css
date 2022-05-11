@@ -52,6 +52,8 @@ article {
   display: flex;
   align-items: flex-end;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  overflow: auto;
 }
 
 .image {
