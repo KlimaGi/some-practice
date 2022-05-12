@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+}
+.main-div {
+  width: 50rem;
+  height: 70vh;
+  margin: 1rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+.block-1 {
+  width: 49%;
+  height: 49%;
+  display: flex;
+  align-items: stretch;
+  gap: 0.7rem;
+}
+.block-row {
+  width: 33.3%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.box-1 {
+  width: 100%;
+  height: 20%;
+  background-color: hsl(256, 80%, 22%);
+}
+.box-2 {
+  width: 100%;
+  height: 80%;
+  background-color: hsl(69, 53%, 46%);
+}
+.box-3 {
+  width: 100%;
+  height: 35%;
+  background-color: hsl(182, 37%, 33%);
+}
+.box-4 {
+  width: 100%;
+  height: 30%;
+  background-color: hsl(194, 44%, 52%);
+}
+.box-5 {
+  width: 100%;
+  height: 35%;
+  background-color: hsl(2, 44%, 52%);
+}
+.box-6 {
+  width: 100%;
+  height: 63%;
+  background-color: hsl(288, 33%, 48%);
+}
+.box-7 {
+  width: 100%;
+  height: 37%;
+  background-color: hsl(124, 18%, 67%);
+}
+
+.box-1-x {
+  width: 100%;
+  height: 30%;
+  background-color: hsl(256, 80%, 22%);
+}
+.box-2-x {
+  width: 100%;
+  height: 70%;
+  background-color: hsl(69, 53%, 46%);
+}
+.box-3-x {
+  width: 100%;
+  height: 35%;
+  background-color: hsl(182, 37%, 33%);
+}
+.box-4-x {
+  width: 100%;
+  height: 30%;
+  background-color: hsl(194, 44%, 52%);
+}
+.box-5-x {
+  width: 100%;
+  height: 35%;
+  background-color: hsl(2, 44%, 52%);
+}
+.box-6-x {
+  width: 100%;
+  height: 60%;
+  background-color: hsl(288, 33%, 48%);
+}
+.box-7-x {
+  width: 100%;
+  height: 40%;
+  background-color: hsl(124, 18%, 67%);
+}
+
+.box-8 {
+  width: 100%;
+  height: 60%;
+  background-color: hsl(249, 39%, 38%);
+}
+.box-9 {
+  width: 100%;
+  height: 40%;
+  background-color: hsl(32, 77%, 74%);
+}
+.box-10 {
+  width: 100%;
+  height: 10%;
+  background-color: hsl(184, 58%, 55%);
+}
+.box-11 {
+  width: 100%;
+  height: 20%;
+  background-color: hsl(32, 37%, 33%);
+}
+.box-12 {
+  width: 100%;
+  height: 70%;
+  background-color: hsl(336, 23%, 58%);
+}
+.box-13 {
+  width: 100%;
+  height: 15%;
+  background-color: hsl(264, 31%, 34%);
+}
+.box-14 {
+  width: 100%;
+  height: 85%;
+  background-color: hsl(96, 69%, 35%);
+}
+
+.box-8-x {
+  width: 100%;
+  height: 60%;
+  background-color: hsl(249, 39%, 38%);
+}
+.box-9-x {
+  width: 100%;
+  height: 40%;
+  background-color: hsl(32, 77%, 74%);
+}
+.box-10-x {
+  width: 100%;
+  height: 23%;
+  background-color: hsl(184, 58%, 55%);
+}
+.box-11-x {
+  width: 100%;
+  height: 32%;
+  background-color: hsl(32, 37%, 33%);
+}
+.box-12-x {
+  width: 100%;
+  height: 45%;
+  background-color: hsl(336, 23%, 58%);
+}
+.box-13-x {
+  width: 100%;
+  height: 30%;
+  background-color: hsl(264, 31%, 34%);
+}
+.box-14-x {
+  width: 100%;
+  height: 70%;
+  background-color: hsl(96, 69%, 35%);
+}
