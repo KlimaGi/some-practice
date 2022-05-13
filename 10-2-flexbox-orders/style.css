@@ -1,0 +1,66 @@
+body {
+  background-color: rgb(238, 241, 241);
+}
+.main-div {
+  width: 90%;
+  height: 45vh;
+  margin: 2rem auto;
+  display: flex;
+}
+.box-1 {
+  background-color: hsl(160, 25%, 64%);
+  height: 100%;
+  width: 25%;
+  order: 1;
+}
+.box-2 {
+  background-color: hsl(0, 25%, 64%);
+  height: 100%;
+  width: 25%;
+  order: 2;
+}
+
+.box-3 {
+  background-color: hsl(41, 61%, 68%);
+  height: 100%;
+  width: 50%;
+}
+.box-4 {
+  background-color: hsl(115, 32%, 58%);
+  height: 100%;
+  width: 50%;
+}
+.block {
+  width: 50%;
+  order: 3;
+  display: flex;
+}
+@media (min-width: 768px) {
+  .main-div {
+    flex-wrap: wrap;
+  }
+  .box-2 {
+    display: none;
+  }
+  .block {
+    height: 70%;
+    width: 75%;
+  }
+  .box-3 {
+    width: 70%;
+  }
+  .box-4 {
+    width: 30%;
+  }
+  .box-1 {
+    width: 75%;
+    height: 30%;
+  }
+  .box-2-1 {
+    background-color: hsl(0, 25%, 64%);
+    height: 100%;
+    width: 25%;
+    order: 4;
+    margin-top: -124px;
+  }
+}

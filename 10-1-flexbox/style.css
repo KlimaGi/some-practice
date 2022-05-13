@@ -74,6 +74,8 @@ body {
     order: 3;
     width: 19%;
     height: 27rem;
+    /* improvizacija */
+    background-color: hsl(342, 38%, 26%);
   }
   .hero-x {
     order: 2;
