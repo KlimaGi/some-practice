@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap");
+body {
+  background-color: hsl(0, 0%, 95%);
+}
+* {
+  font-family: "Zilla Slab", serif;
+  font-size: 1.1rem;
+  color: hsl(0, 0%, 33%);
+  margin: 0;
+}
+.main-div {
+  width: 100%;
+  /* height: 100vh; */
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.text-light {
+  color: hsl(0, 0%, 95%);
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-x {
+  width: 100%;
+  background-color: hsl(242, 19%, 35%);
+  height: 3rem;
+  order: 1;
+}
+.menu-x {
+  width: 100%;
+  background-color: hsl(342, 38%, 52%);
+  height: 3rem;
+  order: 2;
+}
+.hero-x {
+  width: 100%;
+  background-color: hsl(216, 36%, 54%);
+  height: 9rem;
+  order: 3;
+}
+.main-x {
+  width: 100%;
+  background-color: hsl(215, 21%, 37%);
+  height: 9rem;
+  order: 4;
+}
+.banner-x {
+  width: 100%;
+  background-color: hsl(49, 58%, 57%);
+  height: 6rem;
+}
+.extra-x {
+  width: 100%;
+  background-color: hsl(157, 25%, 55%);
+  height: 6rem;
+}
+.image-x {
+  width: 100%;
+  background-color: hsl(185, 20%, 79%);
+  height: 6rem;
+}
+.block {
+  order: 5;
+  width: 100%;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menu-x {
+    order: 3;
+    width: 19%;
+    height: 27rem;
+  }
+  .hero-x {
+    order: 2;
+    height: 12rem;
+  }
+  .block {
+    width: 81%;
+    height: 27rem;
+  }
+
+  .extra-x {
+    width: 70%;
+  }
+  .image-x {
+    width: 30%;
+  }
+  .main-x {
+    height: 15rem;
+    order: 1;
+  }
+  .banner-x {
+    order: 2;
+  }
+  .block-1 {
+    display: flex;
+    order: 3;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-x {
+    width: 25%;
+    display: inline-flex;
+  }
+  .menu-x {
+    width: 75%;
+    display: inline-flex;
+  }
+  .hero-x {
+    height: 18rem;
+  }
+  .block {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-x {
+    order: 1;
+    width: 50%;
+    height: 15rem;
+  }
+  .banner-x {
+    order: 3;
+  }
+  .block-1 {
+    width: 25%;
+    order: 2;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .extra-x,
+  .image-x {
+    height: 7.5rem;
+  }
+}
