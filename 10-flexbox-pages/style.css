@@ -48,8 +48,9 @@ main {
 }
 .block {
   height: 90%;
-  width: 70%;
-  background-color: hsla(41, 48%, 91%, 0.9);
+  width: 54rem;
+  /* width: 70%; */
+  background-color: hsla(41, 48%, 91%, 0.95);
   padding: 0 1rem;
 }
 h1 {
