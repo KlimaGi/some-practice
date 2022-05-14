@@ -1,10 +1,15 @@
 body {
   background-color: rgb(238, 241, 241);
 }
+.parent-div {
+  width: 100%;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
 .main-div {
-  width: 90%;
+  width: 82%;
   height: 45vh;
-  margin: 2rem auto;
   display: flex;
 }
 .box-1 {
@@ -38,13 +43,14 @@ body {
 @media (min-width: 768px) {
   .main-div {
     flex-wrap: wrap;
+    width: 45%;
   }
   .box-2 {
     display: none;
   }
   .block {
     height: 70%;
-    width: 75%;
+    width: 100%;
   }
   .box-3 {
     width: 70%;
@@ -53,14 +59,12 @@ body {
     width: 30%;
   }
   .box-1 {
-    width: 75%;
+    width: 100%;
     height: 30%;
   }
   .box-2-1 {
     background-color: hsl(0, 25%, 64%);
-    height: 100%;
-    width: 25%;
-    order: 4;
-    margin-top: -124px;
+    height: 45vh;
+    width: 18%;
   }
 }
