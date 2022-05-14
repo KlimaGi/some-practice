@@ -2,7 +2,7 @@ body {
   background-color: rgb(238, 241, 241);
 }
 .parent-div {
-  width: 90%;
+  width: 50rem;
   margin: 2rem auto;
   display: flex;
   justify-content: center;
