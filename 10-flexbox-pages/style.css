@@ -71,7 +71,7 @@ footer {
 }
 /* contacts page */
 span {
-  color: hsl(0, 52%, 46%);
+  color: hsl(0, 56%, 36%);
   font-size: 1.5rem;
 }
 form {
@@ -96,7 +96,7 @@ textarea {
   font-size: 1rem;
 }
 button {
-  background-color: hsl(0, 52%, 46%);
+  background-color: hsl(0, 56%, 36%);
   color: hsl(40, 47%, 91%);
   border-style: none;
   width: 50%;
@@ -115,6 +115,6 @@ table {
   margin-top: 2.5rem;
 }
 table tr td:first-child {
-  color: hsl(0, 52%, 46%);
+  color: hsl(0, 56%, 36%);
   font-weight: bold;
 }
