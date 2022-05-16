@@ -1,0 +1,23 @@
+body {
+  /* background-color: hsl(210, 20%, 56%); */
+  background-color: hsl(209, 31%, 27%);
+}
+.main-div {
+  /* height: 90vh; */
+  width: 51rem;
+  border: 1rem solid hsl(208, 32%, 35%);
+  background-color: hsl(208, 32%, 35%);
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1rem;
+  box-sizing: border-box;
+}
+.box-unit {
+  height: 9rem;
+  width: 9rem;
+  border: 1px solid purple;
+  box-sizing: border-box;
+  background-color: hsl(208, 37%, 86%);
+}
