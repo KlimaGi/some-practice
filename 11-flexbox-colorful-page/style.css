@@ -45,6 +45,7 @@ section {
   box-sizing: border-box;
   display: flex;
 }
+/* ----------?-------- */
 .text-place {
   padding: 4rem 2rem;
   border: 1px solid grey;
@@ -57,6 +58,7 @@ section {
 }
 .text-place p {
   border: 1px solid grey;
+  text-transform: capitalize;
 }
 
 .line-1-div-1 {
