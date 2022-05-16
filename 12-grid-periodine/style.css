@@ -3,7 +3,7 @@
 * {
   font-family: "Zilla Slab", serif;
   color: purple;
-  background-color: rgb(202, 201, 201);
+  background-color: hsl(0, 1%, 79%);
 }
 .main-div {
   height: 96vh;
@@ -32,15 +32,75 @@
   margin: 0;
   font-size: 0.8rem;
 }
+
+/* colors ----- */
+.color-1,
+.color-1 h2,
+.color-1 p {
+  background-color: hsl(60, 39%, 67%);
+}
+
+.color-2,
+.color-2 h2,
+.color-2 p {
+  background-color: hsl(187, 26%, 64%);
+}
+
+.color-3,
+.color-3 h2,
+.color-3 p {
+  background-color: hsl(34, 52%, 60%);
+}
+
+.color-4,
+.color-4 h2,
+.color-4 p {
+  background-color: hsl(154, 33%, 61%);
+}
+
+.color-5,
+.color-5 h2,
+.color-5 p {
+  background-color: hsl(183, 20%, 50%);
+}
+
+.color-6,
+.color-6 h2,
+.color-6 p {
+  background-color: hsl(96, 30%, 56%);
+}
+
+.color-7,
+.color-7 h2,
+.color-7 p {
+  background-color: hsl(0, 32%, 64%);
+}
+.color-8,
+.color-8 h2,
+.color-8 p {
+  background-color: hsl(0, 33%, 74%);
+}
+.color-9,
+.color-9 h2,
+.color-9 p {
+  background-color: hsl(28, 48%, 52%);
+}
+.color-10,
+.color-10 h2,
+.color-10 p {
+  background-color: hsl(307, 23%, 69%);
+}
 /* column 1 ------ */
 .box-1 {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
+
 .box-2 {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
 }
+
 .box-3 {
   grid-column: 1 / 2;
   grid-row: 3 / 4;
