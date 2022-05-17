@@ -39,6 +39,11 @@ button {
   font-size: 0.8rem;
   letter-spacing: 1px;
   padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+}
+button i {
+  padding-left: 0.5rem;
 }
 /* main content */
 section {
@@ -151,4 +156,21 @@ footer {
 footer p:last-child {
   color: hsl(240, 7%, 45%);
   font-size: 0.9rem;
+}
+footer i {
+  border-radius: 50%;
+}
+.icon {
+  background-color: hsl(240, 16%, 86%);
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.6rem;
+}
+.icon i {
+  color: hsl(240, 32%, 16%);
+  font-size: 0.8rem;
 }
