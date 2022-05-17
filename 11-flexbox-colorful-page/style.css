@@ -10,7 +10,7 @@
 }
 header {
   width: 100%;
-  height: 19rem;
+  height: 18rem;
   background-color: hsl(240, 30%, 19%);
   padding: 3.5rem;
   box-sizing: border-box;
@@ -21,14 +21,16 @@ header h1 {
 }
 .header-div {
   display: flex;
+  width: 100%;
 }
 .text-div {
   width: 35%;
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.6rem;
   line-height: 1.2rem;
   letter-spacing: 1px;
   padding-right: 1rem;
+  display: inline-block;
 }
 button {
   height: 100%;
@@ -44,54 +46,80 @@ section {
   width: 100%;
   box-sizing: border-box;
   display: flex;
+  align-items: stretch;
 }
-/* ----------?-------- */
+/* -------section text----------- */
 .text-place {
-  padding: 4rem 2rem;
-  border: 1px solid grey;
-}
-.text-place h2 {
-  border: 1px solid grey;
-  display: inline-block;
-  padding: 0 2rem 0.3rem 0;
-  border-bottom: 2px solid hsla(240, 16%, 86%, 0.5);
+  padding: 4.65rem 2rem;
+  color: hsl(240, 7%, 94%);
 }
 .text-place p {
-  border: 1px solid grey;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  margin-top: 0;
+  font-size: 0.7rem;
+  padding: 1rem 1rem 0 0;
+  border-top: 2px solid hsla(240, 16%, 86%, 0.5);
+  display: inline-block;
 }
 
 .line-1-div-1 {
-  background-color: hsla(199, 48%, 49%, 0.5);
+  background: url("./assets/aerial-photo-of-city-2832039.jpg") no-repeat;
+  background-size: cover;
+  background-position: top;
   height: 100%;
-  width: 35%;
+  flex: 2;
+}
+.overlay-1-1 {
+  background-color: hsla(199, 48%, 49%, 0.562);
 }
 .line-1-div-2 {
-  background-color: hsla(268, 69%, 36%, 0.5);
+  background: url("./assets/jacob-hoferlin-Oy9kV4pRoF4-unsplash.jpg") no-repeat;
+  background-size: cover;
+  background-position: 25% 55%;
   height: 100%;
-  width: 65%;
+  flex: 3;
 }
-
+.overlay-1-2 {
+  background-color: hsla(268, 51%, 29%, 0.85);
+}
 .line-2-div-1 {
-  background-color: hsla(0, 48%, 49%, 0.5);
+  background: url("./assets/ryan-searle-Dqv8VRUKBs0-unsplash.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100%;
-  width: 65%;
+  flex: 3;
+}
+.overlay-2-1 {
+  background-color: hsla(0, 27%, 45%, 0.8);
 }
 .line-2-div-2 {
-  background-color: hsla(39, 95%, 41%, 0.5);
+  background: url("./assets/sergei-akulich--heLWtuAN3c-unsplash.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
   height: 100%;
-  width: 35%;
+  flex: 2;
 }
-
+.overlay-2-3 {
+  background-color: hsla(39, 78%, 38%, 0.7);
+}
 .line-3-div-1 {
-  background-color: hsla(231, 48%, 49%, 0.5);
+  background: url("./assets/torbjorn-sandbakk-zWOwJ7Dpxcw-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
   height: 100%;
-  width: 35%;
+  flex: 2;
+}
+.overlay-3-1 {
+  background-color: hsla(231, 48%, 49%, 0.8);
 }
 .line-3-div-2 {
-  background-color: hsla(143, 65%, 30%, 0.5);
+  background: url("./assets/kazuend-19SC2oaVZW0-unsplash.jpg") no-repeat;
+  background-size: cover;
   height: 100%;
-  width: 65%;
+  flex: 3;
+}
+.overlay-3-2 {
+  background-color: hsla(143, 47%, 26%, 0.8);
 }
 .line-4 {
   height: 17rem;
@@ -105,16 +133,19 @@ section {
   display: inline;
   padding: 0 0.5rem 0.3rem 0;
   border-bottom: 3px solid hsl(240, 10%, 66%);
+  font-size: 1.1rem;
 }
 .line-4 p {
   padding: 1rem 0;
+  line-height: 1.4rem;
+  font-size: 1rem;
 }
 
 /* footer */
 footer {
   background-color: hsl(240, 32%, 16%);
   margin: 0;
-  height: 5rem;
+  min-height: 5rem;
   padding: 2rem 3.5rem;
 }
 footer p:last-child {
