@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap");
+
+* {
+  font-family: "Zilla Slab", serif;
+  font-size: 1.1rem;
+  color: hsl(240, 1%, 28%);
+}
+.main-div {
+  width: 100%;
+  background-color: hsl(0, 2%, 92%);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.5rem;
+  box-shadow: 0 3px 3rem 4px rgba(128, 128, 128, 0.384);
+  background-color: hsl(0, 0%, 99%);
+}
+.logo img {
+  height: 2.5rem;
+}
+header nav li {
+  display: inline-flex;
+  padding-left: 2rem;
+}
+header button {
+  background-color: hsl(240, 59%, 38%);
+  color: hsl(240, 3%, 92%);
+  padding: 0.8rem 2.5rem;
+  border-radius: 30px;
+  border-style: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+main {
+  margin: 5rem 2.5rem;
+  border: 1px solid grey;
+  display: flex;
+  gap: 2rem;
+}
+.block-1 {
+  width: 70%;
+  border: 1px solid grey;
+}
+.block-2 {
+  width: 30%;
+  height: 10rem;
+  border: 1px solid grey;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: 1px;
+  padding-bottom: 1rem;
+}
+article {
+  display: flex;
+  gap: 2rem;
+}
+.block-1-1 {
+  border: 1px solid grey;
+  width: 48%;
+  height: 26.5rem;
+  display: inline-block;
+  background-color: hsl(0, 0%, 99%);
+}
+.image {
+  background: url("./assets/blue-pic.jpg");
+  height: 15rem;
+  background-position: center;
+}
+.text {
+  padding: 1rem 2rem;
+}
+.text p:first-child {
+  color: hsl(240, 59%, 38%);
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+.text h2 {
+  font-size: 1.5rem;
+  padding: 0;
+  line-height: 1.4rem;
+}
