@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap");
 
+body {
+  background: hsl(0, 2%, 92%);
+}
+
 * {
   font-family: "Zilla Slab", serif;
   font-size: 1.1rem;
   color: hsl(240, 1%, 28%);
 }
-.main-div {
-  background-color: hsl(0, 2%, 92%);
-}
+
 /* ----header----- */
 header {
   width: 100%;
@@ -34,7 +36,12 @@ header button {
   text-transform: uppercase;
   font-size: 0.9rem;
 }
-/* ----main news ------ */
+/* -->---main news ------ */
+.news {
+  margin-bottom: 50px;
+  border: 2px solid plum;
+}
+
 .main-news {
   display: flex;
   flex-wrap: wrap;
@@ -43,9 +50,19 @@ header button {
 
 .news-article {
   width: calc((100% - 30px) / 2);
+  margin-bottom: 30px;
 }
 
-.image-wrapper {
+.main-news .news-article {
+  background-color: whitesmoke;
+}
+
+.news-article a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-news .image-wrapper {
   height: 250px;
 }
 
@@ -54,3 +71,91 @@ header button {
   height: 100%;
   object-fit: cover;
 }
+
+.main-news .info-wrapper {
+  padding: 38px;
+}
+
+span.article-category {
+  text-transform: uppercase;
+}
+
+.secondary-news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.secondary-news .news-article a .image-wrapper {
+  height: 80px;
+}
+
+/* Šią vietą perdarysime */
+.all-news a {
+  background-color: white;
+  display: block;
+  padding: 30px;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 700;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-news a:after {
+  content: url("./assets/arrow.svg");
+}
+
+.podcast {
+  background-color: whitesmoke;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-rows: 70px auto;
+  grid-template-columns: 70px 1fr 70px;
+  grid-template-areas: "image length play" "content content content";
+}
+
+.podcast-image {
+  grid-area: image;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.podcast-time {
+  grid-area: length;
+  background-color: black;
+  color: whitesmoke;
+  display: grid;
+  place-items: center;
+
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.podcast-play {
+  grid-area: play;
+  background-color: whitesmoke;
+}
+
+.podcast-info {
+  grid-area: content;
+  padding: 15px;
+}
+
+.podcast-info h3 {
+  margin-top: 0;
+}
+
+/* 
+.arrow::after {
+    content: "\276F";
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+*/
