@@ -1,49 +1,106 @@
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600&display=swap");
 
-body {
-  background: hsl(0, 2%, 92%);
-}
-
 * {
   font-family: "Zilla Slab", serif;
   font-size: 1.1rem;
-  color: hsl(240, 1%, 28%);
 }
 
-/* ----header----- */
-header {
-  width: 100vw;
+body {
+  background: hsl(0, 2%, 92%);
+  margin-bottom: 250px;
+}
+
+.title {
+  font-size: 2.7rem;
+  line-height: 2.4rem;
+  letter-spacing: 1px;
+}
+
+.large-button a {
+  background-color: white;
+  display: block;
+  padding: 30px;
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-sizing: border-box;
-  padding: 0 4rem;
-  box-shadow: 0 3px 3rem 4px rgba(128, 128, 128, 0.384);
+}
+
+.large-button a:after {
+  content: none;
+}
+
+.events .large-button a:after {
+  content: none;
+}
+
+.container {
+  max-width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.content {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 30px;
+  margin-top: 100px;
+}
+/* ----header----- */
+header {
   background-color: hsl(0, 0%, 99%);
   position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 3px 3rem 4px rgba(128, 128, 128, 0.384);
 }
-.logo img {
-  height: 2.5rem;
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-header nav li {
-  display: inline-flex;
+
+.header-content nav {
+  display: flex;
+  align-items: center;
+}
+
+.main-navigation {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-navigation li {
+  display: inline;
+}
+
+.main-navigation li a {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: black;
   font-weight: 600;
-  /* border: 2px solid #89c2b8; */
-  padding-right: 1rem;
 }
-header button {
+
+a.button {
   background-color: hsl(240, 59%, 38%);
   color: hsl(240, 3%, 92%);
-  padding: 0.8rem 2.5rem;
-  border-radius: 30px;
-  border-style: none;
+  padding: 15px 40px;
+  border-radius: 50px;
   text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
   font-size: 0.9rem;
 }
 /* -->---main news ------ */
 .news {
   margin-bottom: 50px;
-  border: 2px solid plum;
 }
 
 .main-news {
@@ -61,7 +118,7 @@ header button {
   background-color: whitesmoke;
 }
 
-.news-article a {
+a.no-style {
   text-decoration: none;
   color: black;
 }
@@ -90,31 +147,18 @@ span.article-category {
   justify-content: space-between;
 }
 
+.secondary-news .news-article a {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  column-gap: 20px;
+}
+
 .secondary-news .news-article a .image-wrapper {
   height: 80px;
 }
 
-/* Šią vietą perdarysime */
-.all-news a {
-  background-color: white;
-  display: block;
-  padding: 30px;
-  color: black;
-  text-decoration: none;
-  font-size: 30px;
-  font-weight: 700;
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.all-news a:after {
-  content: url("./assets/arrow.svg");
-}
 /* ----podcasts------ */
 .podcast {
-  border: 2px solid #89c2b8;
   background-color: whitesmoke;
   margin-bottom: 20px;
   display: grid;
@@ -128,7 +172,6 @@ span.article-category {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: left bottom;
 }
 
 .podcast-time {
@@ -156,12 +199,51 @@ span.article-category {
 .podcast-info h3 {
   margin-top: 0;
 }
-
-/* 
-.arrow::after {
-    content: "\276F";
-    font-size: 40px;
-    font-weight: 500;
-    color: white;
+/* -----events------ */
+.event {
+  margin-bottom: 70px;
 }
-*/
+.event .image-wrapper {
+  height: 270px;
+}
+
+.event-info {
+  background-color: black;
+  color: whitesmoke;
+  padding: 50px 20px 20px;
+  position: relative;
+}
+
+.event-date {
+  text-align: center;
+  width: 70px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  top: -40px;
+}
+
+.event-day {
+  background-color: whitesmoke;
+  color: black;
+  font-size: 30px;
+  padding: 7px;
+}
+
+.event-month {
+  background-color: #e063d6;
+  color: whitesmoke;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+/* ------programos----- */
+.side-form {
+  background: whitesmoke;
+  border: 1px solid grey;
+}
+
+.form-button {
+  border-radius: 30px;
+  border: 2px solid hsl(240, 59%, 38%);
+}

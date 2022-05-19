@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<div>
+  <li><a href="index.html">Naujienos</a></li>
+  <h1>Programos</h1>
+  <div class="side-form">
+    <h2>Rastos 26 programos</h2>
+
+    <label for="tema">Tema</label>
+    <select name="tema" id="tema">
+      <option value="visos">visos</option>
+      <option value="testavimas">testavimas</option>
+      <option value="programavimas">programavimas</option>
+      <option value="dizainas">dizainas</option>
+      <option value="duomenys">duomenys</option>
+      <option value="rinkodara">rinkodara</option>
+    </select><br><br>
+
+    <label for="vieta">Vieta</label>
+    <select name="vieta" id="vieta">
+      <option value="visos">visos</option>
+      <option value="online">online</option>
+      <option value="vilnius">vilnius</option>
+      <option value="kaunas">kaunas</option>
+      <option value="klaipeda">klaipeda</option>
+    </select><br><br>
+
+    <label for="tipas">Tipas</label>
+    <select name="tipas" id="tipas">
+      <option value="visi">visi</option>
+      <option value="pradedanciuku">pradedanciu kursai</option>
+      <option value="pradedanciustud">pradedanciu studijos</option>
+      <option value="lygis1-2">1+2 lygis</option>
+      <option value="studijos101">studijos 101</option>
+      <option value="finansuojamauzt">finansuojama uzt</option>
+      <option value="nemokamosstd">nemokamos studijos</option>
+    </select><br><br>
+
+    <span>Laikas</span><br>
+    <input type="radio" id="laikas" name="laikas" value="dienomis">
+    <label for="laikas">Dienomis</label><br>
+    <input type="radio" id="laikas" name="laikas" value="vakarais">
+    <label for="laikas">Vakarais</label><br><br>
+
+    <button class="form-button">isvalyti</button>
+  </div>
+
+
+  <div class="programs">
+    <div class="program-block"></div>
+  </div>
+</div>
+
+</body>
+</html>
