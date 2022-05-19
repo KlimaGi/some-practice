@@ -81,6 +81,7 @@ header {
 
 .main-navigation li a {
   padding: 10px;
+  /* li a del ..inline-block.. elementas uzima savo auksti neuzeidamas ant salia esanciu elementu */
   display: inline-block;
   text-decoration: none;
   color: black;
