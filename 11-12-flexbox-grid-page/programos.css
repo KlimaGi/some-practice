@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2f2f2;
+  margin-top: 500px;
+  margin-bottom: 500px;
+}
+
+.container {
+  max-width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.programs-container {
+  display: flex;
+  column-gap: 20px;
+  align-items: flex-start;
+  background-color: green;
+}
+.programs-filter {
+  width: calc(100% / 3);
+  /* background-color: #d8a3d4; */
+  background-color: whitesmoke;
+  padding: 45px 40px 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  position: sticky;
+  /* transform: translateY(-50%); */
+  top: 20px;
+}
+.programs-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% / 3 * 2);
+  /* background-color: #725870; */
+}
+.program-item {
+  background-color: whitesmoke;
+  padding: 40px 40px 25px;
+  position: relative;
+  margin: 20px;
+  width: calc(50% - 40px);
+}
+.program-image {
+  width: 97px;
+  height: 97px;
+  object-fit: contain;
+}
+
+.program-feature-item {
+  margin-right: 30px;
+}
+.program-item img {
+  margin-right: 8px;
+}
+.program-extra {
+  background-color: #db74d3;
+  color: whitesmoke;
+  padding: 10px 20px;
+  border-radius: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 20px;
+  right: -15px;
+  /* jei teksto bus daugiau */
+  max-width: 255px;
+}

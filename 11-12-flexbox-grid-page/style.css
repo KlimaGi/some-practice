@@ -248,3 +248,16 @@ span.article-category {
   border-radius: 30px;
   border: 2px solid hsl(240, 59%, 38%);
 }
+.side-form {
+  border: 1px solid grey;
+}
+.programs-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+  padding: 30px;
+}
+.program-block {
+  height: 20rem;
+  border: 1px solid grey;
+}
