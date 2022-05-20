@@ -1,0 +1,22 @@
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  column-gap: 1rem;
+}
+
+.cards-item {
+  width: calc(100% / 3);
+}
+
+.carousel-item img {
+  height: 22rem;
+  object-fit: cover;
+  object-position: 50% 10%;
+}
+
+.menu-top-button {
+  position: fixed;
+  bottom: 1rem;
+  left: calc(100% - 5rem);
+  z-index: 5;
+}
