@@ -103,3 +103,285 @@ body {
   height: 50%;
   border: 1px solid hsl(300, 100%, 25%);
 }
+/* 5 */
+.wrapper-5-1 {
+  height: 3rem;
+  display: flex;
+}
+.box-5-1 {
+  width: 3rem;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.box-5-1-wrapper {
+  width: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-5-1-1 {
+  width: 50%;
+  height: 50%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.box-5-2 {
+  width: 6rem;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+/* 6 */
+.box-6-1 {
+  height: 4.5rem;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.wrapper-6-2 {
+  height: 4.5rem;
+  display: flex;
+}
+.wrapper-6-2-2 {
+  height: 100%;
+  width: 3rem;
+}
+.wrapper-6-2-2-1 {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+.box-6-2-2-1-1 {
+  height: 100%;
+  width: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.box-6-2-2-1 {
+  height: 50%;
+  width: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.box-6-2-2 {
+  height: 100%;
+  width: 3rem;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+/* 7 */
+.wrapper-7-1 {
+  height: 4.5rem;
+  display: flex;
+}
+.box-7-1 {
+  flex: 3;
+  height: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.box-7-2 {
+  flex: 1;
+  height: 100%;
+}
+.box-7-2-1 {
+  height: 50%;
+  width: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+/* 8 */
+/* reuse classes of 6 unit */
+
+/* 9 */
+.wrapper-9 {
+  display: flex;
+  height: 100%;
+}
+.wrapper-9-1 {
+  height: 100%;
+  width: 3rem;
+}
+.box-9-1-1 {
+  height: 4.5rem;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.wrapper-9-1-2 {
+  height: 1.5rem;
+  display: flex;
+}
+.box-9-1-2-1 {
+  width: 50%;
+  height: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.box-9-1-3 {
+  height: 3rem;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.wrapper-9-2 {
+  height: 100%;
+  width: 6rem;
+}
+.wrapper-9-2-1 {
+  height: 1.5rem;
+  width: 100%;
+  display: flex;
+}
+.box-9-2-1-1 {
+  width: 2rem;
+  height: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.box-9-2-2 {
+  height: 4.5rem;
+  width: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.wrapper-9-2-3-1 {
+  display: flex;
+}
+.box-9-2-3-1 {
+  width: 4rem;
+  height: 3rem;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.wrapper-9-2-3-2 {
+  height: 100%;
+}
+.box-9-2-3-2-1 {
+  height: 1.5rem;
+  width: 2rem;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+/* 10 */
+.wrapper-10-1 {
+  height: 3rem;
+  width: 100%;
+  display: flex;
+}
+.box-10-1 {
+  width: 4.5rem;
+  height: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.wrapper-10-2 {
+  width: 1.5rem;
+}
+.box-10-2-1 {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.box-10-3 {
+  height: 3rem;
+  width: 3rem;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+/* 11 */
+.box-11-1 {
+  height: 80%;
+  width: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.wrapper-11-2 {
+  display: flex;
+  height: 20%;
+}
+.box-11-2-1 {
+  flex: 1;
+  height: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+/* 12 */
+.wrapper-12 {
+  height: 100%;
+  display: flex;
+}
+/* 13 */
+.box-12 {
+  height: 20%;
+  width: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+/* 14 */
+.wrapper-14 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.wrapper-14-1 {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-14-1 {
+  height: calc(100% / 3);
+  width: 50%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.box-14-2 {
+  height: calc((100% / 3) * 2);
+  width: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.wrapper-14-2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.box-14-2-1 {
+  height: 100%;
+  width: 50%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.wrapper-14-2-1 {
+  height: 100%;
+  width: 50%;
+}
+.box-14-2-1-1 {
+  height: calc(100% / 3);
+  width: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.box-14-0 {
+  height: 50%;
+  width: 50%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+/* 15 */
+.wrapper-15-1 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+}
+.box-15-1-1 {
+  flex: 1;
+  height: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+/* 16 */
+
+.box-16 {
+  height: calc(100% / 3);
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.wrapper-16 {
+  height: calc(100% / 3);
+  display: flex;
+}
+.box-16-1 {
+  height: 100%;
+  width: 25%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+.wrapper-16-1-1 {
+  height: 100%;
+  width: 25%;
+}
+.box-16-1-1-1 {
+  height: 50%;
+  width: 100%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
+/* 17 */
+
+/* 20 */
+.wrapper-20 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-20-1 {
+  height: 3rem;
+  width: 25%;
+  border: 1px solid hsl(300, 100%, 25%);
+}
