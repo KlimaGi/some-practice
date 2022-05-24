@@ -1,0 +1,75 @@
+body {
+  background-color: hsl(34, 26%, 95%);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Desktop first
+.container {
+  background-color: hsl(88, 44%, 51%);
+  color: whitesmoke;
+  font-size: 1.2rem;
+  padding: 1rem;
+  width: 70%;
+}
+@media (max-width: 799px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media (max-width: 499px) {
+  .container {
+    font-size: 1rem;
+    background-color: hsl(300, 24%, 48%);
+  }
+}
+
+@media (max-width: 299px) {
+  .container {
+    font-size: 1rem;
+    background-color: hsl(300, 28%, 77%);
+    color: hsl(300, 2%, 29%);
+  }
+} */
+
+/* Mobile first */
+/* .container {
+  background-color: pink;
+}
+
+@media (min-width: 300px) {
+  .container {
+    background-color: hsl(300, 31%, 54%);
+    color: whitesmoke;
+  }
+}
+
+@media (min-width: 500px) {
+  .container {
+    background-color: hsl(83, 31%, 54%);
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .container {
+    width: 70%;
+    padding: 20px;
+  }
+} */
+
+.container {
+  width: 95%;
+  margin: 0.5rem auto;
+  border: 1px solid grey;
+}
+.map-div {
+  width: 100%;
+  height: 16rem;
+  border: 1px solid grey;
+}
