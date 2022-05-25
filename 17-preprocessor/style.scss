@@ -1,3 +1,9 @@
+$black: hsl(0, 10%, 11%);
+$white: whitesmoke;
+$dark-red: hsl(0, 33%, 25%);
+$cherry-red: hsl(0, 68%, 39%);
+$red: hsl(0, 50%, 52%);
+
 *,
 *::before,
 *::after {
@@ -5,8 +11,8 @@
 }
 
 .bg-dark {
-  background-color: black;
-  color: whitesmoke;
+  background-color: $black;
+  color: $white;
 }
 
 .wrapper {
@@ -21,27 +27,27 @@
   }
 
   &.bg-dark {
-    background-color: hsl(0, 33%, 25%);
+    background-color: $dark-red;
   }
 
   h2 {
     font-size: 40px;
 
     &.color-red {
-      color: rgb(165, 32, 32);
+      color: $cherry-red;
       cursor: pointer;
       transition: color 0.5s ease-in-out;
 
       &:hover {
-        color: hsl(0, 0%, 99%);
+        color: $white;
       }
     }
   }
 
   p {
     &:not(.empty)::before {
-      content: "-";
-      color: hsl(0, 50%, 52%);
+      content: "- ";
+      color: $red;
     }
     &:first-of-type {
       font-size: 1.5em;
@@ -50,7 +56,7 @@
 }
 
 .box {
-  border: 2px solid whitesmoke;
+  border: 2px solid $white;
   padding: 30px;
   margin-bottom: 30px;
 }

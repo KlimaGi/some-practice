@@ -5,7 +5,7 @@
 }
 
 .bg-dark {
-  background-color: black;
+  background-color: #1f1919;
   color: whitesmoke;
 }
 
@@ -30,17 +30,17 @@
 }
 
 .wrapper h2.color-red {
-  color: #a52020;
+  color: #a72020;
   cursor: pointer;
   transition: color 0.5s ease-in-out;
 }
 
 .wrapper h2.color-red:hover {
-  color: #fcfcfc;
+  color: whitesmoke;
 }
 
 .wrapper p:not(.empty)::before {
-  content: "-";
+  content: "- ";
   color: #c24747;
 }
 
