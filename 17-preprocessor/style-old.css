@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.bg-dark {
+  background-color: black;
+}
+.wrapper {
+  padding: 30px;
+}
+
+.wrapper.full-width {
+  width: 100%;
+}
+
+.wrapper.half-width {
+  width: 50%;
+}
+
+.wrapper.bg-dark {
+  background-color: rgb(85, 43, 43);
+}
+
+.wrapper h2 {
+  font-size: 40px;
+}
+
+.wrapper h2.color-red {
+  color: rgb(165, 32, 32);
+  cursor: pointer;
+  transition: color 0.5s ease-in-out;
+}
+
+.wrapper h2.color-red:hover {
+  color: hsl(0, 0%, 99%);
+}
+
+.wrapper p:not(.empty)::before {
+  content: "-";
+  color: hsl(0, 50%, 52%);
+}
+
+.wrapper p:first-of-type {
+  font-size: 1.5em;
+}
+
+.box {
+  border: 2px solid whitesmoke;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.container {
+  margin: 30px auto;
+  width: 70%;
+}

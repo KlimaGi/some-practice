@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.bg-dark {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.wrapper {
+  padding: 30px;
+
+  &.full-width {
+    width: 100%;
+  }
+
+  &.half-width {
+    width: 50%;
+  }
+
+  &.bg-dark {
+    background-color: hsl(0, 33%, 25%);
+  }
+
+  h2 {
+    font-size: 40px;
+
+    &.color-red {
+      color: rgb(165, 32, 32);
+      cursor: pointer;
+      transition: color 0.5s ease-in-out;
+    }
+  }
+}

@@ -13,6 +13,25 @@ body {
   margin-right: auto;
 }
 
+.title-container .bg-image {
+  background-color: white;
+  background-image: url("./assets/MicrosoftTeams-image.png");
+  background-position: 75% 80%;
+  background-size: 25%;
+  background-repeat: no-repeat;
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1.3rem;
+}
+.title-container .bg-image .pink-color {
+  color: #db74d3;
+}
+.title-container .bg-image .black-color {
+  color: hsl(0, 0%, 28%);
+}
+
 .programs-container {
   display: flex;
   column-gap: 20px;
