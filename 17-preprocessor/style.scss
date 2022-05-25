@@ -31,6 +31,31 @@
       color: rgb(165, 32, 32);
       cursor: pointer;
       transition: color 0.5s ease-in-out;
+
+      &:hover {
+        color: hsl(0, 0%, 99%);
+      }
     }
   }
+
+  p {
+    &:not(.empty)::before {
+      content: "-";
+      color: hsl(0, 50%, 52%);
+    }
+    &:first-of-type {
+      font-size: 1.5em;
+    }
+  }
+}
+
+.box {
+  border: 2px solid whitesmoke;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.container {
+  margin: 30px auto;
+  width: 70%;
 }
