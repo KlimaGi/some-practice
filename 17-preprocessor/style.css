@@ -5,45 +5,37 @@
 }
 
 .bg-dark {
-  background-color: #1f1919;
+  background-color: hsl(0deg, 10%, 11%);
   color: whitesmoke;
 }
 
 .wrapper {
   padding: 30px;
 }
-
 .wrapper.full-width {
   width: 100%;
 }
-
 .wrapper.half-width {
   width: 50%;
 }
-
 .wrapper.bg-dark {
-  background-color: #552b2b;
+  background-color: hsl(0deg, 33%, 25%);
 }
-
 .wrapper h2 {
   font-size: 40px;
 }
-
 .wrapper h2.color-red {
-  color: #a72020;
+  color: hsl(0deg, 68%, 39%);
   cursor: pointer;
   transition: color 0.5s ease-in-out;
 }
-
 .wrapper h2.color-red:hover {
   color: whitesmoke;
 }
-
 .wrapper p:not(.empty)::before {
   content: "- ";
-  color: #c24747;
+  color: hsl(0deg, 50%, 52%);
 }
-
 .wrapper p:first-of-type {
   font-size: 1.5em;
 }
@@ -57,5 +49,4 @@
 .container {
   margin: 30px auto;
   width: 70%;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
