@@ -38,6 +38,7 @@ body {
   align-items: flex-start;
   border: 1px solid green;
 }
+/* ****programs filter******* */
 .programs-filter {
   width: calc(100% / 3);
   /* background-color: #d8a3d4; */
@@ -49,6 +50,44 @@ body {
   /* transform: translateY(-50%); */
   top: 20px;
 }
+.programs-found {
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 4rem;
+}
+.form-control {
+  margin: 1rem;
+}
+.form-control .form-label {
+  display: block;
+  font-weight: bold;
+}
+.form-control .form-select {
+  border-style: none;
+  background-color: #f2f2f2;
+  border-radius: 50px;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.form-control .form-select option {
+  font-size: 0.8rem;
+}
+.programs-filter button {
+  border-style: none;
+  border: 1px solid hsl(240, 93%, 42%);
+  color: hsl(240, 93%, 42%);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+  border-radius: 50px;
+  padding: 0.8rem 1rem;
+  width: 100%;
+  background-color: hsla(0, 0%, 50%, 0);
+}
+/* ************* */
 .programs-list {
   display: flex;
   flex-wrap: wrap;

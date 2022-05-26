@@ -38,42 +38,49 @@
   <a href="#" class="bg-image"><span class="pink-color">Nežinai ką pasirinkti?</span> <span class="black-color">Spręsk IT testą</span></a>
 </div>
 
+
   <div class="programs-container">
     <div class="programs-filter">
       <span class="programs-found">Rastos n programos</span>
 
       <div class="form-control">
-      <label for=themes">Temos:</label>
-      <select  id="themes">
-        <option>Visos</option>
-        <option value="tema1">Tema 1</option>
-        <option value="tema2">Tema 2</option>
-        <option value="tema3">Tema 3</option>
-      </select>
+        <label class="form-label" for=themes">Tema</label>
+        <select class="form-select" id="themes">
+          <option value="visos">visos</option>
+          <option value="testavimas">testavimas</option>
+          <option value="programavimas">programavimas</option>
+          <option value="dizainas">dizainas</option>
+          <option value="duomenys">duomenys</option>
+          <option value="rinkodara">rinkodara</option>
+        </select>
       </div>
 
       <div class="form-control">
-      <label for=place">Vieta:</label>
-      <select  id="place">
-        <option>Visos</option>
-        <option value="tema1">Tema 1</option>
-        <option value="tema2">Tema 2</option>
-        <option value="tema3">Tema 3</option>
-      </select>
+        <label class="form-label" for=place">Vieta</label>
+        <select class="form-select" name="place"  id="place">
+          <option value="visos">visos</option>
+          <option value="online">online</option>
+          <option value="vilnius">vilnius</option>
+          <option value="kaunas">kaunas</option>
+          <option value="klaipeda">klaipeda</option>
+        </select>
       </div>
       
       <div class="form-control">
-      <label for=type">Tipas:</label>
-      <select  id="type">
-        <option>Visi</option>
-        <option value="tema1">Tema 1</option>
-        <option value="tema2">Tema 2</option>
-        <option value="tema3">Tema 3</option>
-      </select>
+        <label class="form-label" for=typesd">Tipas</label>
+        <select class="form-select" id="typesd">
+          <option value="visi">visi</option>
+          <option value="pradedanciuku">pradedanciu kursai</option>
+          <option value="pradedanciustud">pradedanciu studijos</option>
+          <option value="lygis1-2">1+2 lygis</option>
+          <option value="studijos101">studijos 101</option>
+          <option value="finansuojamauzt">finansuojama uzt</option>
+          <option value="nemokamosstd">nemokamos studijos</option>
+        </select>
       </div>
 
-      <fieldset>
-        <legend>Laikas:</legend>
+      <div class="form-control">
+        <label class="form-label">Laikas:</label>
         <div class="form-control">
           <input type="checkbox" name="laikas" id="time-1">
           <label for="time-1">Dienomis</label>
@@ -83,9 +90,9 @@
           <input type="checkbox" name="laikas" id="time-2">
           <label for="time-2">Vakarais</label>
         </div>
-      </fieldset>
+      </div>
 
-      <button>Isvalyti</button>
+      <button>Išvalyti</button>
     </div>
 
 
@@ -163,51 +170,7 @@
 
 
 
-
-    <h1 class="title">Programos</h1>
-
-  
-    <div class="side-form">
-    <h2>Rastos 26 programos</h2>
-
-    <label for="tema">Tema</label>
-    <select name="tema" id="tema">
-      <option value="visos">visos</option>
-      <option value="testavimas">testavimas</option>
-      <option value="programavimas">programavimas</option>
-      <option value="dizainas">dizainas</option>
-      <option value="duomenys">duomenys</option>
-      <option value="rinkodara">rinkodara</option>
-    </select><br><br>
-
-    <label for="vieta">Vieta</label>
-    <select name="vieta" id="vieta">
-      <option value="visos">visos</option>
-      <option value="online">online</option>
-      <option value="vilnius">vilnius</option>
-      <option value="kaunas">kaunas</option>
-      <option value="klaipeda">klaipeda</option>
-    </select><br><br>
-
-    <label for="tipas">Tipas</label>
-    <select name="tipas" id="tipas">
-      <option value="visi">visi</option>
-      <option value="pradedanciuku">pradedanciu kursai</option>
-      <option value="pradedanciustud">pradedanciu studijos</option>
-      <option value="lygis1-2">1+2 lygis</option>
-      <option value="studijos101">studijos 101</option>
-      <option value="finansuojamauzt">finansuojama uzt</option>
-      <option value="nemokamosstd">nemokamos studijos</option>
-    </select><br><br>
-
-    <span>Laikas</span><br>
-    <input type="radio" id="laikas" name="laikas" value="dienomis">
-    <label for="laikas">Dienomis</label><br>
-    <input type="radio" id="laikas" name="laikas" value="vakarais">
-    <label for="laikas">Vakarais</label><br><br>
-
-    <button class="form-button">isvalyti</button>
-    </div>
+    
 
     
   </div>
