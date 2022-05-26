@@ -1,3 +1,11 @@
+:root {
+  --color-black: black;
+  --color-white: hsl(0, 0%, 96%);
+  --color-dark-red: rgb(85, 43, 43);
+  --color-cherry-red: rgb(165, 32, 32);
+  --spacing-30: 30px;
+}
+
 *,
 *::before,
 *::after {
@@ -5,10 +13,12 @@
 }
 
 .bg-dark {
-  background-color: black;
+  background-color: var(--color-black);
+  color: var(--color-white);
 }
+
 .wrapper {
-  padding: 30px;
+  padding: var(--spacing-30);
 }
 
 .wrapper.full-width {
@@ -20,21 +30,21 @@
 }
 
 .wrapper.bg-dark {
-  background-color: rgb(85, 43, 43);
+  background-color: var(--color-dark-red);
 }
 
 .wrapper h2 {
-  font-size: 40px;
+  font-size: var(--spacing-30);
 }
 
 .wrapper h2.color-red {
-  color: rgb(165, 32, 32);
+  color: var(--color-cherry-red);
   cursor: pointer;
   transition: color 0.5s ease-in-out;
 }
 
 .wrapper h2.color-red:hover {
-  color: hsl(0, 0%, 99%);
+  color: var(--color-white);
 }
 
 .wrapper p:not(.empty)::before {

@@ -11,7 +11,10 @@
 </head>
 <body>
   
-  <div class="container">
+  <header>
+    <!-- container -- plotis -->
+    <div class="container">
+      <!-- header-content -- turinio lygiavimas -->
       <div class="header-content">
         <img class="logo" src="https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/codeacademy-black.svg">
         <nav>
@@ -29,152 +32,202 @@
           <a href="tel:+37068788768" class="button">Skambinti</a>
         </nav>
       </div>
-  </div>
-  
-
-<div class="container">
-<div class="title-container">
-  <h1 class="page-title">Programos</h1>
-  <a href="#" class="bg-image"><span class="pink-color">Nežinai ką pasirinkti?</span> <span class="black-color">Spręsk IT testą</span></a>
-</div>
-
-
-  <div class="programs-container">
-    <div class="programs-filter">
-      <span class="programs-found">Rastos n programos</span>
-
-      <div class="form-control">
-        <label class="form-label" for=themes">Tema</label>
-        <select class="form-select" id="themes">
-          <option value="visos">visos</option>
-          <option value="testavimas">testavimas</option>
-          <option value="programavimas">programavimas</option>
-          <option value="dizainas">dizainas</option>
-          <option value="duomenys">duomenys</option>
-          <option value="rinkodara">rinkodara</option>
-        </select>
-      </div>
-
-      <div class="form-control">
-        <label class="form-label" for=place">Vieta</label>
-        <select class="form-select" name="place"  id="place">
-          <option value="visos">visos</option>
-          <option value="online">online</option>
-          <option value="vilnius">vilnius</option>
-          <option value="kaunas">kaunas</option>
-          <option value="klaipeda">klaipeda</option>
-        </select>
-      </div>
       
-      <div class="form-control">
-        <label class="form-label" for=typesd">Tipas</label>
-        <select class="form-select" id="typesd">
-          <option value="visi">visi</option>
-          <option value="pradedanciuku">pradedanciu kursai</option>
-          <option value="pradedanciustud">pradedanciu studijos</option>
-          <option value="lygis1-2">1+2 lygis</option>
-          <option value="studijos101">studijos 101</option>
-          <option value="finansuojamauzt">finansuojama uzt</option>
-          <option value="nemokamosstd">nemokamos studijos</option>
-        </select>
-      </div>
-
-      <div class="form-control">
-        <label class="form-label">Laikas:</label>
-        <div class="form-control">
-          <input type="checkbox" name="laikas" id="time-1">
-          <label for="time-1">Dienomis</label>
-        </div>
-
-        <div class="form-control">
-          <input type="checkbox" name="laikas" id="time-2">
-          <label for="time-2">Vakarais</label>
-        </div>
-      </div>
-
-      <button>Išvalyti</button>
+    </div>
+      
+  </header>
+  
+  <div class="container">
+    <div class="title-container">
+      <h1 class="page-title">Programos</h1>
+      <a href="#" class="bg-image"><span class="pink-color">Nežinai ką pasirinkti?</span> <span class="black-color">Spręsk IT testą</span></a>
     </div>
 
+    <div class="programs-container">
+      <div class="programs-filter">
+        <span class="programs-found">Rastos n programos</span>
 
-    <div class="programs-list">
-
-      <div class="program-item">
-        
-        <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
-        <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
-        <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
-        <div class="program-features-list">
-          <span class="program-feature-item">
-            <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
-            1+2 lygis</span>
-          <span class="program-feature-item">
-            <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
-            Dienomis</span>
+        <div class="form-control">
+          <label class="form-label" for=themes">Tema</label>
+          <select class="form-select" id="themes">
+            <option value="visos">visos</option>
+            <option value="testavimas">testavimas</option>
+            <option value="programavimas">programavimas</option>
+            <option value="dizainas">dizainas</option>
+            <option value="duomenys">duomenys</option>
+            <option value="rinkodara">rinkodara</option>
+          </select>
         </div>
-        <span class="program-extra">Nemokama</span>
+
+        <div class="form-control">
+          <label class="form-label" for=place">Vieta</label>
+          <select class="form-select" name="place"  id="place">
+            <option value="visos">visos</option>
+            <option value="online">online</option>
+            <option value="vilnius">vilnius</option>
+            <option value="kaunas">kaunas</option>
+            <option value="klaipeda">klaipeda</option>
+          </select>
+        </div>
+        
+        <div class="form-control">
+          <label class="form-label" for=typesd">Tipas</label>
+          <select class="form-select" id="typesd">
+            <option value="visi">visi</option>
+            <option value="pradedanciuku">pradedanciu kursai</option>
+            <option value="pradedanciustud">pradedanciu studijos</option>
+            <option value="lygis1-2">1+2 lygis</option>
+            <option value="studijos101">studijos 101</option>
+            <option value="finansuojamauzt">finansuojama uzt</option>
+            <option value="nemokamosstd">nemokamos studijos</option>
+          </select>
+        </div>
+
+        <div class="form-control">
+          <label class="form-label">Laikas</label>
+          <div class="form-control">
+            <input type="checkbox" name="laikas" id="time-1">
+            <label for="time-1">Dienomis</label>
+          </div>
+
+          <div class="form-control">
+            <input type="checkbox" name="laikas" id="time-2">
+            <label for="time-2">Vakarais</label>
+          </div>
+        </div>
+
+        <button>Išvalyti</button>
       </div>
 
-      <div class="program-item">
-        
-        <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
-        <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
-        <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
-        <div class="program-features-list">
-          <span class="program-feature-item">
-            <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
-            1+2 lygis</span>
-          <span class="program-feature-item">
-            <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
-            Dienomis</span>
+      <div class="programs-list">
+        <div class="program-item">
+          
+          <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
+          <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
+          <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
+          <div class="program-features-list">
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              1+2 lygis</span>
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              Dienomis</span>
+          </div>
+          <span class="program-extra">Nemokama</span>
         </div>
-        <span class="program-extra">Nemokama</span>
-      </div>
 
-      <div class="program-item">
-        
-        <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
-        <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
-        <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
-        <div class="program-features-list">
-          <span class="program-feature-item">
-            <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
-            1+2 lygis</span>
-          <span class="program-feature-item">
-            <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
-            Dienomis</span>
+        <div class="program-item">
+          
+          <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
+          <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
+          <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
+          <div class="program-features-list">
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              1+2 lygis</span>
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              Dienomis</span>
+          </div>
+          <span class="program-extra">Nemokama</span>
         </div>
-        <span class="program-extra">Nemokama</span>
-      </div>
 
-      <div class="program-item">
-        
-        <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
-        <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
-        <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
-        <div class="program-features-list">
-          <span class="program-feature-item">
-            <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
-            1+2 lygis</span>
-          <span class="program-feature-item">
-            <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
-            Dienomis</span>
+        <div class="program-item">
+          
+          <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
+          <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
+          <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
+          <div class="program-features-list">
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              1+2 lygis</span>
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              Dienomis</span>
+          </div>
+          <span class="program-extra">Nemokama</span>
         </div>
-        <span class="program-extra">Nemokama</span>
-      </div>
 
+        <div class="program-item">
+          
+          <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
+          <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
+          <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
+          <div class="program-features-list">
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              1+2 lygis</span>
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              Dienomis</span>
+          </div>
+          <span class="program-extra">Nemokama</span>
+        </div>
+
+        <div class="program-item">
+          <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
+          <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
+          <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
+          <div class="program-features-list">
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              1+2 lygis</span>
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              Dienomis</span>
+          </div>
+          <span class="program-extra">Nemokama</span>
+        </div>
+
+        <div class="program-item">
+          <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
+          <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
+          <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
+          <div class="program-features-list">
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              1+2 lygis</span>
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              Dienomis</span>
+          </div>
+          <span class="program-extra">Nemokama</span>
+        </div>
+
+        <div class="program-item">
+          <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
+          <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
+          <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
+          <div class="program-features-list">
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              1+2 lygis</span>
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              Dienomis</span>
+          </div>
+          <span class="program-extra">Nemokama</span>
+        </div>
+
+        <div class="program-item">
+          <img class="program-image" src="https://codeacademy.lt/wp-content/uploads//2021/05/UI_dark.svg" alt="icon image for course">
+          <h2 class="program-title">Web Dizainas UX/UI - Lorem ipsum</h2>
+          <p class="program-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati debitis provident. Voluptate dolores aliquid commodi debitis consequuntur. Aperiam porro rem harum suscipit ipsa consequatur.</p>
+          <div class="program-features-list">
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              1+2 lygis</span>
+            <span class="program-feature-item">
+              <img  data-cke-saved-src="icon.svg" src="./assets/icon.svg">
+              Dienomis</span>
+          </div>
+          <span class="program-extra">Nemokama</span>
+        </div>
+      </div>
     </div>
   </div>
 
-</div>
-
-
-
-
-    
-
-    
-  </div>
-</div>
+  
 
 </body>
 </html>

@@ -1,8 +1,5 @@
-$black: hsl(0, 10%, 11%);
-$white: whitesmoke;
-$dark-red: hsl(0, 33%, 25%);
-$cherry-red: hsl(0, 68%, 39%);
-$red: hsl(0, 50%, 52%);
+@import "variables";
+@import "container";
 
 *,
 *::before,
@@ -16,7 +13,7 @@ $red: hsl(0, 50%, 52%);
 }
 
 .wrapper {
-  padding: 30px;
+  padding: $spacing-30;
 
   &.full-width {
     width: 100%;
@@ -31,7 +28,7 @@ $red: hsl(0, 50%, 52%);
   }
 
   h2 {
-    font-size: 40px;
+    font-size: $spacing-30;
 
     &.color-red {
       color: $cherry-red;
@@ -45,23 +42,18 @@ $red: hsl(0, 50%, 52%);
   }
 
   p {
+    &:first-of-type {
+      font-size: 1.5em;
+    }
     &:not(.empty)::before {
       content: "- ";
       color: $red;
-    }
-    &:first-of-type {
-      font-size: 1.5em;
     }
   }
 }
 
 .box {
-  border: 2px solid $white;
-  padding: 30px;
-  margin-bottom: 30px;
-}
-
-.container {
-  margin: 30px auto;
-  width: 70%;
+  border: $border;
+  padding: $spacing-30;
+  margin-bottom: $spacing-30;
 }

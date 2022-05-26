@@ -89,9 +89,10 @@ header {
 }
 
 a.button {
-  background-color: hsl(240, 59%, 38%);
+  background-color: hsl(244, 100%, 50%);
   color: hsl(240, 3%, 92%);
-  padding: 15px 40px;
+  padding: 12px 45px;
+  margin-left: 1rem;
   border-radius: 50px;
   text-transform: uppercase;
   display: inline-block;

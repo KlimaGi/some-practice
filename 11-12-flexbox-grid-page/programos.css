@@ -13,6 +13,12 @@ body {
   margin-right: auto;
 }
 
+.title-container {
+  margin-top: 9rem;
+  font-size: 2.2rem;
+  line-height: 2.5rem;
+}
+
 .title-container .bg-image {
   background-color: white;
   background-image: url("./assets/MicrosoftTeams-image.png");
@@ -20,23 +26,25 @@ body {
   background-size: 25%;
   background-repeat: no-repeat;
   display: block;
-  font-size: 30px;
-  font-weight: 700;
   text-decoration: none;
   padding: 1.3rem;
+  margin-bottom: 1rem;
 }
 .title-container .bg-image .pink-color {
   color: #db74d3;
+  font-size: 30px;
+  font-weight: 700;
 }
 .title-container .bg-image .black-color {
   color: hsl(0, 0%, 28%);
+  font-size: 30px;
+  font-weight: 700;
 }
 
 .programs-container {
   display: flex;
   column-gap: 20px;
   align-items: flex-start;
-  border: 1px solid green;
 }
 /* ****programs filter******* */
 .programs-filter {
@@ -77,8 +85,8 @@ body {
 }
 .programs-filter button {
   border-style: none;
-  border: 1px solid hsl(240, 93%, 42%);
-  color: hsl(240, 93%, 42%);
+  border: 1px solid hsl(244, 100%, 50%);
+  color: hsl(244, 100%, 50%);
   text-transform: uppercase;
   font-size: 0.8rem;
   letter-spacing: 1px;
@@ -87,12 +95,13 @@ body {
   width: 100%;
   background-color: hsla(0, 0%, 50%, 0);
 }
-/* ************* */
+/* ***** programs list ******** */
 .programs-list {
   display: flex;
   flex-wrap: wrap;
   width: calc(100% / 3 * 2);
   /* background-color: #725870; */
+  border: 1px solid green;
 }
 .program-item {
   background-color: white;
