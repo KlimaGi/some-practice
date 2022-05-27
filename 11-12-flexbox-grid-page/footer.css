@@ -1,0 +1,74 @@
+footer {
+  background-color: black;
+  padding: 140px 0;
+  background-image: url(https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/footer.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 100%;
+  background-size: 400px;
+}
+footer .content-footer a {
+  color: #929497;
+  text-decoration: none;
+}
+footer .content-footer a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+footer .content-footer .logo-wrapper {
+  margin-bottom: 88px;
+}
+footer .content-footer .logo-wrapper img {
+  width: 135px;
+}
+footer .content-footer .menu-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+footer .content-footer .menu-wrapper ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer .content-footer .menu-wrapper ul li {
+  margin: 1em 0;
+}
+footer .content-footer .menu-wrapper ul li a {
+  color: #929497;
+  line-height: 2;
+  text-decoration: none;
+}
+footer .content-footer .menu-wrapper ul li a:hover {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+footer .content-footer .menu-wrapper .contacts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+footer .content-footer .menu-wrapper .contacts .city-wrapper .city-name {
+  color: white;
+  text-transform: uppercase;
+}
+footer .content-footer .menu-wrapper .social ul li {
+  display: inline;
+  margin-left: 1em;
+}
+footer .content-footer .menu-wrapper .social ul li a:hover {
+  text-decoration: none;
+}
+footer .content-footer .menu-wrapper .social ul li a:hover svg path {
+  fill: whitesmoke;
+}
+footer .content-footer .privacy-wrapper {
+  color: #929497;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 250px;
+}
+footer .content-footer .privacy-wrapper .copyright a {
+  color: whitesmoke;
+  width: 60%;
+}
+footer .content-footer .privacy-wrapper .privacy {
+  width: 36%;
+}/*# sourceMappingURL=footer.css.map */

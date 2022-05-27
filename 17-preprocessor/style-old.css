@@ -50,6 +50,7 @@
 .wrapper p:not(.empty)::before {
   content: "-";
   color: hsl(0, 50%, 52%);
+  background-color: bisque;
 }
 
 .wrapper p:first-of-type {

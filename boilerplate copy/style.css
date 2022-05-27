@@ -1,0 +1,100 @@
+h1.header {
+  color: rgb(112, 90, 133) !important;
+}
+
+h1 {
+  color: blueviolet !important;
+}
+
+#header-id#header-id {
+  color: gray;
+}
+
+html body h1#header-id.header {
+  color: rgb(150, 50, 96);
+}
+
+body h1#header-id.header {
+  color: orange;
+}
+
+h1#header-id.header {
+  color: powderblue;
+}
+
+#header-id.header {
+  color: olive;
+}
+
+#header-id {
+  color: orchid;
+}
+
+h1.header {
+  color: pink;
+}
+
+.header {
+  color: rgb(13, 132, 148);
+}
+
+h1 {
+  color: green;
+}
+
+h1 {
+  color: purple;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+:root {
+  /* elementas kuri visi elementai mato */
+  /* font-size: 40px; */
+}
+/* html {
+  font-size: 16px;
+}  */
+.container {
+  width: 50%;
+  border: 1px solid grey;
+}
+p {
+  /* width: 50%; */
+
+  /* VW - viewport width */
+  width: 50vw;
+}
+
+h2 {
+  background-color: rgb(178, 197, 191);
+  height: 30%;
+
+  /* VH - VIEWPORT HEIGHT */
+  /* height: 30vh; */
+}
+
+div.div1 {
+  margin: 3rem auto;
+  height: 9rem;
+  width: 9rem;
+  border: 1px solid grey;
+  background-color: cadetblue;
+}
+.div2 {
+  height: 3rem;
+  width: 3rem;
+  border: 1px solid rgb(201, 162, 162);
+  background-color: antiquewhite;
+}
+
+.container {
+  font-size: 33px;
+}
+button {
+  font-size: 1em;
+  padding: 1rem;
+}

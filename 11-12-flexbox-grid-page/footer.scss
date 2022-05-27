@@ -1,0 +1,118 @@
+footer {
+  background-color: black;
+  padding: 140px 0;
+  background-image: url(https://codeacademy.lt/wp-content/themes/codeacademy/dist/images/footer.svg);
+  background-repeat: no-repeat;
+  background-position: 90% 100%;
+  background-size: 400px;
+
+  .content-footer {
+    a {
+      color: #929497;
+      text-decoration: none;
+      &:hover {
+        color: whitesmoke;
+        text-decoration: underline;
+      }
+    }
+
+    .logo-wrapper {
+      margin-bottom: 88px;
+
+      img {
+        width: 135px;
+      }
+    }
+
+    .menu-wrapper {
+      display: flex;
+      justify-content: space-between;
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+          margin: 1em 0;
+
+          a {
+            color: #929497;
+            line-height: 2;
+            text-decoration: none;
+
+            &:hover {
+              color: whitesmoke;
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+      .main-menu {
+        ul {
+          li {
+            a {
+            }
+          }
+        }
+      }
+      .contacts {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        .city-wrapper {
+          .city-name {
+            color: white;
+            text-transform: uppercase;
+          }
+          ul {
+            li {
+              a {
+              }
+            }
+          }
+        }
+      }
+
+      .social {
+        ul {
+          li {
+            display: inline;
+            margin-left: 1em;
+            a {
+              &:hover {
+                text-decoration: none;
+
+                svg {
+                  path {
+                    fill: whitesmoke;
+                  }
+                }
+              }
+
+              svg {
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .privacy-wrapper {
+      color: #929497;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 250px;
+
+      .copyright {
+        a {
+          color: whitesmoke;
+          width: 60%;
+        }
+      }
+      .privacy {
+        width: 36%;
+        a {
+        }
+      }
+    }
+  }
+}
